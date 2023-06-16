@@ -44,7 +44,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install wheel
           pip install -r requirements.txt
-          bump2version --new-version patch
+          bump2version patch
           
       - name: Build and Publish
         env:
